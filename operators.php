@@ -28,8 +28,8 @@
 	echo "Should be 6: " .$num. "<br>";
 
 	// operations on characters
-	$i = abc;
-	for ($n=0; $n<52; $n++)
+	$i = 'A';
+	for ($n=0; $n<25; $n++)
 		echo ++$i . "<br>";
 
 ?>
