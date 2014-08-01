@@ -32,7 +32,7 @@
 		}
 	}
 
-	$s_cart = new Stars_Cart; // create Start cart
+	$s_cart = new Stars_Cart; // create Stars_Cart
 	$s_cart->set_owner("Jane Doe"); // name cart owner
 	echo $s_cart->owner;
 	$s_cart->add_items("20", 2); // inherited from cart
