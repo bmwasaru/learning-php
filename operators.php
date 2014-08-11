@@ -31,5 +31,9 @@
 	$i = 'A';
 	for ($n=0; $n<25; $n++)
 		echo ++$i . "<br>";
+	// playing around with roman numbers too
+	$r = 'i';
+	for ($c=0; $c<30; $++c)
+		echo $r++;
 
 ?>
